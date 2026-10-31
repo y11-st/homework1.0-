@@ -1,0 +1,15 @@
+//20261012531
+//秦玉杰
+#include <stdio.h>
+int main()
+{float a;
+float b;
+float c;
+printf("请输入三个数字：");
+scanf("%f,%f,%f",&a,&b,&c);
+if (a+b>c&&a+c>b&&b+c>a)
+{printf("能构成三角形");
+}
+else{printf("不能构成三角形");}
+return 0;
+}
